@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"CardDescription.module.css"}
+{"version":3,"sourceRoot":"","sources":["CardDescription.module.scss"],"names":[],"mappings":"AAAA;EACE;;;AAGF;EACE;EACA;EACA;EACA;;;AAEF;EACE;EACA;EACA","file":"CardDescription.module.css"}

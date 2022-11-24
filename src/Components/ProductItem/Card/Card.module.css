@@ -1,3 +1,21 @@
+.card {
+  display: grid;
+  grid-template-rows: 40% 60%;
+  margin: 4px;
+  height: 98.5%;
+  border-radius: 12px;
+  background-color: white;
+  clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%, 0 10%);
+  color: #666666;
+}
 
+.cardContainer {
+  display: grid;
+  background-color: blue;
+  margin: 0;
+  clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%, 0 10%);
+  height: 509px;
+  border-radius: 12px;
+}
 
 /*# sourceMappingURL=Card.module.css.map */

@@ -1,5 +1,12 @@
 .productItem {
-  background-color: white;
+  justify-self: center;
+  width: 100%;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.isOverMessage {
+  color: #FFFF66;
+  text-align: center;
 }
 
 /*# sourceMappingURL=ProductItem.module.css.map */

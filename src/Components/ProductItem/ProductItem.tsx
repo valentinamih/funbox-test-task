@@ -4,8 +4,13 @@ import {Card} from "./Card/Card";
 
 export const ProductItem: React.FunctionComponent<PropsType> = props => {
   return <section className={style.productItem}>
-    <Card portionsCount={props.portionsCount} taste={props.taste} gift={props.gift} weight={props.weight} IsDisabled={props.IsDisabled}/>
-    {props.IsDisabled ? <p>Печалька, с курой закончился.</p> : null}
+    <Card portionsCount={props.portionsCount}
+          taste={props.taste}
+          gift={props.gift}
+          weight={props.weight}
+          IsDisabled={props.IsDisabled}
+          specialMessage={props.specialMessage} />
+    {props.IsDisabled ? <p className={style.isOverMessage}>Печалька, с курой закончился.</p> : null}
   </section>
 }
 
@@ -16,4 +21,5 @@ type PropsType = {
   weight: string
   description: string
   IsDisabled: boolean
+  specialMessage: string
 }
